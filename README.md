@@ -1,4 +1,21 @@
-# Nodejs with ES6 using babel plugins :
+# Nodejs server with Mongodb. It has API for login and signup. It was created with ES6 using babel plugins :
+
+## API Endpoints
+- ```/api/login```
+- ```/api/signup```
+- ```/api/users/:userid```
+- ```/api/test```
+
+## API URL
+You need to start the *CloudSandbox* MicroVM here  
+[https://codesandbox.io/p/sandbox/node-mongodb-s731rj](https://codesandbox.io/p/sandbox/node-mongodb-s731rj?file=%2FREADME.md)  
+
+After that you can use the api, for example below url will fetch test data  
+[https://5o2jx0-8080.csb.app/api/test](https://5o2jx0-8080.csb.app/api/test)
+
+
+
+## ES6 babel usage
 
 A NodeJS boilerplate for using ES6 syntax (i.e import/export, arrow functions, destructoring) with node.
 
