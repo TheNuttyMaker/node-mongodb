@@ -1,0 +1,18 @@
+/**
+ * If you want to use this file instead of package.json then rename it to .babelrc and remove "babel" object from package.json
+ * Correct: Make sure that you are using @babel/preset-env which is version 7.x and refer to it as follow
+ * Wrong:  "presets": ["env"] referes to version 6.x.x and will not work
+ */
+
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ]
+  }

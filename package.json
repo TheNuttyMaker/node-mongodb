@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-es6-babel",
+  "version": "1.0.0",
+  "author": "Ziad Alharash",
+  "description": "A NodeJS boilerplate for using ES6 syntax (i.e import/export, arrow functions, destructoring) with node.\n",
+  "main": "src/index.js",
+  "repository": "github:zalharash/nodejs-es6-babel.git",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [
+    "import",
+    "es6",
+    "babel",
+    "nodejs",
+    "@babel/preset-env"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.3",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "4.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "3.6.5"
+  }
+}
