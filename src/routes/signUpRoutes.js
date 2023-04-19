@@ -6,6 +6,7 @@ export const signUpRoute = {
   path: "/api/signup",
   method: "post",
   handler: async (req, res) => {
+    console.log(req.body);
     const { email, password } = req.body;
     let user;
     console.log("DB connection");
