@@ -2,7 +2,7 @@ import express from "express";
 import { routes } from "./routes";
 import { initializeDbConnection } from "./db";
 // import { createProxyMiddleware } from "http-proxy-middleware";
-import { cors } from "cors";
+import cors from "cors";
 
 const PORT = process.env.PORT || 8080;
 
